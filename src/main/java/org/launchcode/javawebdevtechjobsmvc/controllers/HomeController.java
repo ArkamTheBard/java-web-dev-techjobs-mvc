@@ -10,7 +10,7 @@ import java.util.HashMap;
  * Created by LaunchCode
  */
 @Controller
-public class HomeController {
+public class HomeController extends TechJobsController {
 
     @RequestMapping(value = "")
     public String index(Model model) {
